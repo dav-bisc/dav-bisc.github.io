@@ -4,7 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 import "../css/NaviBar.css";
 
 const NaviBar = () => {
-/*
+  /*
 const [redirectTo, setRedirectTo] = useState(null);
 
 if (redirectTo) {
@@ -32,18 +32,16 @@ if (redirectTo) {
             <Link to="/prodotti">Prodotti</Link>
           </li>
           <li style={{ marginRight: "10px" }}>
-        <Link to="/contatti">Contatti</Link>
-        </li>
-        <li style={{ marginRight: "10px" }}>
-        <Link to="/chisiamo">Chi siamo</Link>
-        </li>
+            <Link to="/contatti">Contatti</Link>
+          </li>
+          <li style={{ marginRight: "10px" }}>
+            <Link to="/chisiamo">Chi siamo</Link>
+          </li>
         </ul>
       </nav>
       <Outlet />
     </>
   );
- 
- 
-}
+};
 
 export default NaviBar;

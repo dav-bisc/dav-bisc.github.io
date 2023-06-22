@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Define the pastel colors */
 :root {
   --pastel-pink: #ffd8db;
