@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Define the pastel colors */
+:root {
+  --pastel-pink: #ffd8db;
+  --pastel-blue: #b1e1ea;
+  --pastel-green: #d8f1d7;
+  --pastel-yellow: #fffbcc;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Apply the colors to different elements */
+body {
+  background-color: var(--pastel-pink);
 }
+
+h1, h2, h3 {
+  color: blue;
+  text-align: center; /* Center the header text */
+}
+
+a {
+  color: var(--pastel-green);
+}
+
+button {
+  background-color: var(--pastel-yellow);
+}
+
+/* Adjust the brightness of the header color */
+header {
+  background-color: #fca1a7; /* Slightly brighter pink */
+}
+
+/* Add additional styling specific to your handmade bags website */

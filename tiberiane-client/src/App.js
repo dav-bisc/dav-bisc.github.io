@@ -5,6 +5,7 @@ import Home from "./pages/Home.js";
 import Prodotti from "./pages/Prodotti.js";
 import ReactDOM from "react-dom/client";
 import Contatti from "./pages/Contatti";
+import ChiSiamo from './pages/ChiSiamo';
 
 function App() {
   return (
@@ -15,12 +16,13 @@ function App() {
       <Route path="home" element ={<Home/>} />
       <Route path ="prodotti" element={<Prodotti/>} />
       <Route path ="contatti" element = {<Contatti/>} />
+      <Route path ="chisiamo" element = {<ChiSiamo/>} />
     </Routes>
     </BrowserRouter>
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+//const root = ReactDOM.createRoot(document.getElementById("root"));
+//root.render(<App />);
 
 export default App;

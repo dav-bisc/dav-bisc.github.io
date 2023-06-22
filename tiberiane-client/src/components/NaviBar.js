@@ -1,7 +1,7 @@
 //import React, { useState } from "react";
 //import { Navigate } from "react-router-dom";
 import { Outlet, Link } from "react-router-dom";
-
+import "../css/NaviBar.css";
 
 const NaviBar = () => {
 /*
@@ -33,7 +33,10 @@ if (redirectTo) {
           </li>
           <li style={{ marginRight: "10px" }}>
         <Link to="/contatti">Contatti</Link>
-</li>
+        </li>
+        <li style={{ marginRight: "10px" }}>
+        <Link to="/chisiamo">Chi siamo</Link>
+        </li>
         </ul>
       </nav>
       <Outlet />
