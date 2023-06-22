@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NaviBar from "./components/NaviBar.js";
 import Home from "./pages/Home.js";
 import Prodotti from "./pages/Prodotti.js";
-import ReactDOM from "react-dom/client";
 import Contatti from "./pages/Contatti";
 import ChiSiamo from "./pages/ChiSiamo";
+import "../src/i18n";
 
 function App() {
   return (

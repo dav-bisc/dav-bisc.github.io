@@ -7,11 +7,16 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "emoji-mart": "^5.5.2",
+    "i18next": "^23.2.3",
+    "i18next-browser-languagedetector": "^7.0.2",
+    "prettier": "^2.8.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-photo-view": "^1.2.3",
+    "react-i18next": "^13.0.1",
     "react-router-dom": "^6.13.0",
     "react-scripts": "5.0.1",
+    "react-smart-slider": "^0.1.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -27,7 +32,15 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "no-dupe-keys": [
+        "off"
+      ],
+      "react/jsx-no-target-blank": [
+        "off"
+      ]
+    }
   },
   "browserslist": {
     "production": [
