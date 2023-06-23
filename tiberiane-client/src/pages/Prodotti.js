@@ -1,6 +1,7 @@
 //import React, { useState } from "react";
 //import { Navigate } from "react-router-dom";
-
+import Header from "../components/header";
+import { useTranslation } from "react-i18next";
 const Prodotti = () => {
   /*   const [redirectTo, setRedirectTo] = useState(null);
 
@@ -8,10 +9,11 @@ const Prodotti = () => {
         return <Navigate to={redirectTo} />;
       }
 */
-
+const { t } = useTranslation();
+const head = Header(t('products.p1'))
   return (
     <div>
-      <h1>I nostri prodotti</h1>
+      {head}
     </div>
   );
 };

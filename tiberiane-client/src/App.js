@@ -5,6 +5,7 @@ import Home from "./pages/Home.js";
 import Prodotti from "./pages/Prodotti.js";
 import Contatti from "./pages/Contatti";
 import ChiSiamo from "./pages/ChiSiamo";
+import Social from "./pages/Social";
 import "../src/i18n";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="prodotti" element={<Prodotti />} />
         <Route path="contatti" element={<Contatti />} />
         <Route path="chisiamo" element={<ChiSiamo />} />
+        <Route path="social" element = {<Social />} />
       </Routes>
     </BrowserRouter>
   );

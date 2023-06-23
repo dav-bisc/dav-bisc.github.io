@@ -20,7 +20,7 @@ ul {
   }
   
   li:last-child {
-    border-right: none;
+    border-right: none; 
     
   }
   
@@ -33,7 +33,7 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: pink;
   }
 
   

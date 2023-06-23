@@ -32,9 +32,17 @@ i18n
           },
           contacts: {
             p1: "Contacts",
+            msg: "Get in touch with us",
+            info1: "Contact information",
+            name: "Name",
+            phone: "Phone"
           },
           us: {
             p1: "Our group",
+          },
+          social: {
+            p1: "Social medias",
+            msg: "Follow us"
           },
           provWarning: {
             p1: "WARNING: the website is currently under development. Please be patient!",
@@ -56,9 +64,17 @@ i18n
           },
           contacts: {
             p1: "Contatti",
+            msg: "Mettiti in contatto con noi",
+            info1: "Informazioni di contatto",
+            name: "Nome",
+            phone: "Telefono"
           },
           us: {
             p1: "Chi siamo",
+          },
+          social: {
+            p1: "Social",
+            msg: "Seguici"
           },
           provWarning: {
             p1: "ATTENZIONE! Il sito web è in fase di sviluppo.",
