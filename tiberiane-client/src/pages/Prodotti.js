@@ -9,14 +9,12 @@ const Prodotti = () => {
         return <Navigate to={redirectTo} />;
       }
 */
-const { t } = useTranslation();
-const head = Header(t('products.p1'))
+  const { t } = useTranslation();
+  const head = Header(t("products.p1"));
   return (
     <div>
       {head}
-      <div className="min-h-screen">
-
-      </div>
+      <div className="min-h-screen"></div>
     </div>
   );
 };

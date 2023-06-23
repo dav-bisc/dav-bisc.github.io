@@ -39,21 +39,21 @@ i18n
             emailProp: "Send an e-mail",
             subj: "Inquiry",
             body: "Hello, I have a question.",
-            waProp: "Send a Whatsapp message"
+            waProp: "Send a Whatsapp message",
           },
           us: {
             p1: "Our group",
           },
           social: {
             p1: "Social medias",
-            msg: "Follow us"
+            msg: "Follow us",
           },
           provWarning: {
             p1: "WARNING: the website is currently under development. Please be patient!",
           },
           footer: {
-            msg: "Website developed by Davide Biscardi"
-          }
+            msg: "Website developed by Davide Biscardi",
+          },
         },
       },
       ita: {
@@ -78,21 +78,21 @@ i18n
             emailProp: "Invia un'e-mail",
             subj: "Informazioni",
             body: "Salve, ho una richiesta.",
-            waProp: "Invia un messaggio Whatsapp"
+            waProp: "Invia un messaggio Whatsapp",
           },
           us: {
             p1: "Chi siamo",
           },
           social: {
             p1: "Social",
-            msg: "Seguici"
+            msg: "Seguici",
           },
           provWarning: {
             p1: "ATTENZIONE! Il sito web è in fase di sviluppo.",
           },
           footer: {
             msg: "Sito web sviluppato da Davide Biscardi",
-          }
+          },
         },
       },
     },

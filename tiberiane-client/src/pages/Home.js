@@ -13,7 +13,7 @@ const Home = () => {
       }
 */
 
-const head = Header("Tiberiana bags");
+  const head = Header("Tiberiana bags");
   const { t } = useTranslation();
   const DummyCaption = ({ caption }) => (
     <div
@@ -51,15 +51,15 @@ const head = Header("Tiberiana bags");
     <div>
       {head}
       <h2>{t("provWarning.p1")}</h2>
-    <div className="min-h-screen">
-      <div className="container mx-auto font-serif antialiased italic font-weight-600 tracking-wide line-height: 2rem text-center text-slate-700 bg-opacity-75 bg-gray-300 p-4 rounded-lg">
-        <cite>{t("description.part1")}</cite>
-      </div>
-      <div className="relative">
-      <div className="container mx-auto" >
-        <SmartSlider slides={slidesArray} autoSlide={true} />
-      </div>
-      </div>
+      <div className="min-h-screen">
+        <div className="container mx-auto font-serif antialiased italic font-weight-600 tracking-wide line-height: 2rem text-center text-slate-700 bg-opacity-75 bg-gray-300 p-4 rounded-lg">
+          <cite>{t("description.part1")}</cite>
+        </div>
+        <div className="relative">
+          <div className="container mx-auto">
+            <SmartSlider slides={slidesArray} autoSlide={true} />
+          </div>
+        </div>
       </div>
     </div>
   );
