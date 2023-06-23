@@ -35,7 +35,11 @@ i18n
             msg: "Get in touch with us",
             info1: "Contact information",
             name: "Name",
-            phone: "Phone"
+            phone: "Phone",
+            emailProp: "Send an e-mail",
+            subj: "Inquiry",
+            body: "Hello, I have a question.",
+            waProp: "Send a Whatsapp message"
           },
           us: {
             p1: "Our group",
@@ -47,6 +51,9 @@ i18n
           provWarning: {
             p1: "WARNING: the website is currently under development. Please be patient!",
           },
+          footer: {
+            msg: "Website developed by Davide Biscardi"
+          }
         },
       },
       ita: {
@@ -67,7 +74,11 @@ i18n
             msg: "Mettiti in contatto con noi",
             info1: "Informazioni di contatto",
             name: "Nome",
-            phone: "Telefono"
+            phone: "Telefono",
+            emailProp: "Invia un'e-mail",
+            subj: "Informazioni",
+            body: "Salve, ho una richiesta.",
+            waProp: "Invia un messaggio Whatsapp"
           },
           us: {
             p1: "Chi siamo",
@@ -79,6 +90,9 @@ i18n
           provWarning: {
             p1: "ATTENZIONE! Il sito web è in fase di sviluppo.",
           },
+          footer: {
+            msg: "Sito web sviluppato da Davide Biscardi",
+          }
         },
       },
     },

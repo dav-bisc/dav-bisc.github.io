@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-section {
+    display: grid;
+    min-height: 100vh;
+    justify-content: center;
+    gap: 5px;
+    //background-color: rgba(181, 206, 222, 0.6);
+    //background-color: hsla(210, 33%, 80%, 0.6);
+  }
+  

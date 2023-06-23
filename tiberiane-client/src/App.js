@@ -7,9 +7,11 @@ import Contatti from "./pages/Contatti";
 import ChiSiamo from "./pages/ChiSiamo";
 import Social from "./pages/Social";
 import "../src/i18n";
+import Footer from "./components/Footer";
 
 function App() {
   return (
+    <div>
     <BrowserRouter>
       <NaviBar />
       <Routes>
@@ -21,6 +23,8 @@ function App() {
         <Route path="social" element = {<Social />} />
       </Routes>
     </BrowserRouter>
+    <Footer/>
+    </div>
   );
 }
 

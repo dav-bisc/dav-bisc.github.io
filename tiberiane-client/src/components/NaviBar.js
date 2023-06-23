@@ -4,6 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 import "../css/NaviBar.css";
 import { useTranslation } from "react-i18next";
 import { Gb, It } from "react-flags-select";
+
 const NaviBar = () => {
   /*
 const [redirectTo, setRedirectTo] = useState(null);
@@ -20,6 +21,10 @@ if (redirectTo) {
 
   const { t, i18n } = useTranslation();
 
+  /*  <li style={{ marginRight: "10px", flex: "1", textAlign: "center",fontWeight: "bold", fontSize: "1.1rem" }}>
+   <Link to="/chisiamo">{t("us.p1")}</Link>
+ </li> */
+ 
   return (
     <>
       <nav>
@@ -43,9 +48,9 @@ if (redirectTo) {
           <li style={{ marginRight: "10px", flex: "1", textAlign: "center",fontWeight: "bold", fontSize: "1.1rem" }}>
             <Link to="/contatti">{t("contacts.p1")}</Link>
           </li>
-          <li style={{ marginRight: "10px", flex: "1", textAlign: "center",fontWeight: "bold", fontSize: "1.1rem" }}>
-            <Link to="/chisiamo">{t("us.p1")}</Link>
-          </li>
+         
+         
+         
           <li style={{ marginRight: "10px", flex: "1", textAlign: "center",fontWeight: "bold", fontSize: "1.1rem" }}>
           <Link to="/social">{t("social.p1")}</Link>
         </li>
@@ -75,6 +80,7 @@ if (redirectTo) {
         </ul>
       </nav>
       <Outlet />
+
     </>
   );
 };

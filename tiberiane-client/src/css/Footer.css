@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+    position:  h-10;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ddd6fe;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,6 +1,7 @@
 import InstagramEmbed from "../components/instaEmbed";
 import { useTranslation } from "react-i18next";
 import Header from "../components/header";
+import "../css/Social.css"
 const Social = () => {
 
     const { t } = useTranslation();
@@ -8,12 +9,12 @@ const Social = () => {
     return (
         <div>
                   {head}
-      <section className="grid flex justify-center gap-5 bg-opacity-60 bg-slate-200">
+      <section className="grid-section flex flex-wrap lg:grid lg:justify-center">
      
      
      
      
-     <div classname="ml-20">
+     <div className="ml-4 sm:ml-0 sm:w-full">
         <iframe
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftiberianebags%2Fposts%2Fpfbid0KWP4A95SUutksYrsk6SdcfLpk8BHhYgb7BfNtb7BVu3U9kWURsCtEAvvGQTa2kqEl&show_text=true&width=500"
           width="500"
@@ -21,8 +22,8 @@ const Social = () => {
           title="Pagina instagram"
           style={{ border: "none", overflow: "hidden" }}
           scrolling="no"
-          frameborder="0"
-          allowfullscreen="true"
+          frameBorder="0"
+          allowFullScreen={true}
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
         ></iframe>
      

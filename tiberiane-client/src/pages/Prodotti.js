@@ -14,6 +14,9 @@ const head = Header(t('products.p1'))
   return (
     <div>
       {head}
+      <div className="min-h-screen">
+
+      </div>
     </div>
   );
 };
