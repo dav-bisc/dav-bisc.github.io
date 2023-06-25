@@ -8,6 +8,8 @@ import ChiSiamo from "./pages/ChiSiamo";
 import Social from "./pages/Social";
 import "../src/i18n";
 import Footer from "./components/Footer";
+import AdminLogin from "./pages/adminLogin";
+import AdminDashboard from "./pages/adminDashboard";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path="contatti" element={<Contatti />} />
           <Route path="chisiamo" element={<ChiSiamo />} />
           <Route path="social" element={<Social />} />
+          <Route path="admin/login" element={<AdminLogin />} />
+          <Route path="admin/dashboard" element={<AdminDashboard />} />
         </Routes>
       </BrowserRouter>
       <Footer />
