@@ -20,6 +20,7 @@
     "react-scripts": "5.0.1",
     "react-secure-storage": "^1.2.2",
     "react-smart-slider": "^0.1.2",
+    "react-super-responsive-table": "^5.2.1",
     "react-toastify": "^9.1.3",
     "web-vitals": "^2.1.4"
   },

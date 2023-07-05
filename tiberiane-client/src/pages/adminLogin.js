@@ -109,7 +109,7 @@ const AdminLogin = () => {
       <div className="min-h-screen">
         <div className="flex flex-col justify-center items-center content-center text-center">
           <form
-            className="bg-fuchsia-50/80 shadow-md rounded-3xl px-6 pt-6 pb-8 mb-4"
+            className="mt-10 bg-fuchsia-50/80 shadow-md rounded-3xl px-6 pt-6 pb-8 mb-4"
             onSubmit={handleSubmit}
           >
             <label
