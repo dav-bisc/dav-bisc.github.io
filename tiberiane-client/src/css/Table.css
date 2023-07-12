@@ -1,0 +1,26 @@
+/* table.css */
+
+/* Table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Table Header */
+  .table thead th {
+    padding: 0.75rem;
+    background-color: #edf2f7;
+    border-bottom: 1px solid #cbd5e0;
+  }
+  
+  /* Table Body */
+  .table tbody td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #cbd5e0;
+  }
+  
+  /* Table Striped Rows */
+  .table tbody tr:nth-child(even) {
+    background-color: #f7fafc;
+  }
+  

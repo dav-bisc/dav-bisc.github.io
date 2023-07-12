@@ -84,6 +84,19 @@ if (redirectTo) {
           >
             <Link to="/social">{t("social.p1")}</Link>
           </li>
+
+          <li
+            style={{
+              marginRight: "10px",
+              flex: "1",
+              textAlign: "center",
+              fontWeight: "bold",
+              fontSize: "1.1rem",
+            }}
+          >
+            <Link to="/admin/login">{t("login.p1")}</Link>
+          </li>
+
           {Object.keys(lngs).map((lng) => (
             <button
               key={lng}

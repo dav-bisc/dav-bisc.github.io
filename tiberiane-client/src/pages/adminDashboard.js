@@ -12,6 +12,8 @@ const AdminDashboard = () => {
         return <BagAdd />;
       case "Mostra borse":
         return <ShowBags />;
+      case "Aggiungi alla pagina prodotti":
+        break;
       default:
         return <br />;
     }
@@ -35,14 +37,18 @@ const AdminDashboard = () => {
                 onChange={(e) => setSceltaOp(e.target.value)}
               >
                 <option value="">Mostra operazioni...</option>
-                <option value="Aggiungi borsa">Aggiungi una borsa</option>
-                <option value="Mostra borse">Mostra borse</option>
+                <option value="Aggiungi borsa">
+                  Aggiungi una borsa all'archivio
+                </option>
+                <option value="Mostra borse">Mostra borse nell'archivio</option>
+                <option value="Aggiungi alla pagina prodotti">
+                  Aggiungi alla pagina prodotti
+                </option>
               </select>
             </label>
-
-            {currentOp()}
           </section>
         </div>
+        {currentOp()}
       </div>
     </div>
   );

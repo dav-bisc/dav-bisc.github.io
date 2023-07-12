@@ -54,6 +54,9 @@ i18n
           footer: {
             msg: "Website developed by Davide Biscardi",
           },
+          login: {
+            p1: "Login",
+          },
         },
       },
       ita: {
@@ -92,6 +95,9 @@ i18n
           },
           footer: {
             msg: "Sito web sviluppato da Davide Biscardi",
+          },
+          login: {
+            p1: "Accedi",
           },
         },
       },
